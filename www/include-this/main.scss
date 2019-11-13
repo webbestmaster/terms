@@ -6,11 +6,16 @@ $link-color: #3360FF;
 $font-size: 15px;
 $line-height: 22px;
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .so-many-so-bored-text-wrapper {
   a, span, p, div,
   h1, h2, h3, h4, h5, h6,
-  ul, ol, li,
-  html, body {
+  ul, ol, li {
     margin: 0;
     padding: 0;
     color: $text-color;
