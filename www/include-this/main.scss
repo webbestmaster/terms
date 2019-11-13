@@ -1,0 +1,36 @@
+// https://www.sassmeister.com/ use this to convert .scss to .css
+
+$font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+$text-color: #101E54;
+$link-color: #3360FF;
+$font-size: 15px;
+$line-height: 22px;
+
+.so-many-so-bored-text-wrapper {
+  a, span, p, div,
+  h1, h2, h3, h4, h5, h6,
+  ul, ol, li,
+  html, body {
+    margin: 0;
+    padding: 0;
+    color: $text-color;
+    font-family: $font-family;
+    font-size: $font-size;
+    line-height: $line-height;
+    font-weight: normal;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+
+  a {
+    &,
+    &:hover,
+    &:active,
+    &:visited {
+      color: $link-color;
+    }
+  }
+
+}
