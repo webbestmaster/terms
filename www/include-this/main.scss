@@ -15,6 +15,7 @@ body {
 .so-many-so-bored-text-wrapper {
   a, span, p, div,
   h1, h2, h3, h4, h5, h6,
+  table, th, td,
   ul, ol, li {
     margin: 0;
     padding: 0;
@@ -38,4 +39,8 @@ body {
     }
   }
 
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
 }
