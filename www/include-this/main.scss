@@ -95,9 +95,16 @@ body {
     border-collapse: collapse;
   }
 
-  td {
+  th, td {
     vertical-align: top;
     padding: 6px 10px;
+  }
+
+  th {
+    p {
+      font-weight: bold;
+      padding-bottom: 0;
+    }
   }
 
   ol, ul {

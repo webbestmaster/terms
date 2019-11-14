@@ -69,9 +69,13 @@ body {
     border: 1px solid black;
     border-collapse: collapse;
 }
-.so-many-so-bored-text-wrapper td {
+.so-many-so-bored-text-wrapper th, .so-many-so-bored-text-wrapper td {
     vertical-align: top;
     padding: 6px 10px;
+}
+.so-many-so-bored-text-wrapper th p {
+    font-weight: bold;
+    padding-bottom: 0;
 }
 .so-many-so-bored-text-wrapper ol, .so-many-so-bored-text-wrapper ul {
     padding-left: 22px;
