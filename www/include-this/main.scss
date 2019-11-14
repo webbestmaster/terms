@@ -4,12 +4,17 @@ $font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 $text-color: #101E54;
 $link-color: #3360FF;
 $font-size: 15px;
+$font-weight: 400;
 $line-height: 22px;
 
 html,
 body {
   margin: 0;
   padding: 0;
+}
+
+body {
+  padding: 15px;
 }
 
 .so-many-so-bored-text-wrapper {
@@ -23,11 +28,22 @@ body {
     font-family: $font-family;
     font-size: $font-size;
     line-height: $line-height;
-    font-weight: normal;
+    font-weight: $font-weight;
+  }
+
+  p {
+    padding-bottom: $font-size;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
+  }
+
+  h1 {
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: 34px;
+    padding-bottom: 26px;
   }
 
   a {
@@ -43,4 +59,16 @@ body {
     border: 1px solid black;
     border-collapse: collapse;
   }
+
+  td {
+    vertical-align: top;
+    padding: 6px 10px;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 22px;
+  }
+
+
 }

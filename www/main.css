@@ -1,0 +1,49 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+}
+
+.so-many-so-bored-text-wrapper a, .so-many-so-bored-text-wrapper span, .so-many-so-bored-text-wrapper p, .so-many-so-bored-text-wrapper div,
+.so-many-so-bored-text-wrapper h1, .so-many-so-bored-text-wrapper h2, .so-many-so-bored-text-wrapper h3, .so-many-so-bored-text-wrapper h4, .so-many-so-bored-text-wrapper h5, .so-many-so-bored-text-wrapper h6,
+.so-many-so-bored-text-wrapper table, .so-many-so-bored-text-wrapper th, .so-many-so-bored-text-wrapper td,
+.so-many-so-bored-text-wrapper ul, .so-many-so-bored-text-wrapper ol, .so-many-so-bored-text-wrapper li {
+    margin: 0;
+    padding: 0;
+    color: #101E54;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.so-many-so-bored-text-wrapper p {
+    padding-bottom: 15px;
+}
+.so-many-so-bored-text-wrapper h1, .so-many-so-bored-text-wrapper h2, .so-many-so-bored-text-wrapper h3, .so-many-so-bored-text-wrapper h4, .so-many-so-bored-text-wrapper h5, .so-many-so-bored-text-wrapper h6 {
+    font-weight: bold;
+}
+.so-many-so-bored-text-wrapper h1 {
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: 34px;
+    padding-bottom: 26px;
+}
+.so-many-so-bored-text-wrapper a, .so-many-so-bored-text-wrapper a:hover, .so-many-so-bored-text-wrapper a:active, .so-many-so-bored-text-wrapper a:visited {
+    color: #3360FF;
+}
+.so-many-so-bored-text-wrapper table, .so-many-so-bored-text-wrapper th, .so-many-so-bored-text-wrapper td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.so-many-so-bored-text-wrapper td {
+    vertical-align: top;
+    padding: 6px 10px;
+}
+.so-many-so-bored-text-wrapper ul {
+    list-style-type: disc;
+    padding-left: 22px;
+}
