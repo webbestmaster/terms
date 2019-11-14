@@ -95,24 +95,32 @@ body {
     border-collapse: collapse;
   }
 
+  table {
+    margin-bottom: $font-size;
+  }
+
   th, td {
     vertical-align: top;
     padding: 6px 10px;
-  }
 
-  th {
     p {
-      font-weight: bold;
       padding-bottom: 0;
     }
   }
 
   ol, ul {
     padding-left: 22px;
+    padding-bottom: $font-size;
   }
 
   ul {
     list-style-type: disc;
+  }
+
+  li {
+    p {
+      padding-bottom: floor($line-height / 3);
+    }
   }
 
 }

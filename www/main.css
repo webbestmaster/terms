@@ -69,17 +69,23 @@ body {
     border: 1px solid black;
     border-collapse: collapse;
 }
+.so-many-so-bored-text-wrapper table {
+    margin-bottom: 15px;
+}
 .so-many-so-bored-text-wrapper th, .so-many-so-bored-text-wrapper td {
     vertical-align: top;
     padding: 6px 10px;
 }
-.so-many-so-bored-text-wrapper th p {
-    font-weight: bold;
+.so-many-so-bored-text-wrapper th p, .so-many-so-bored-text-wrapper td p {
     padding-bottom: 0;
 }
 .so-many-so-bored-text-wrapper ol, .so-many-so-bored-text-wrapper ul {
     padding-left: 22px;
+    padding-bottom: 15px;
 }
 .so-many-so-bored-text-wrapper ul {
     list-style-type: disc;
+}
+.so-many-so-bored-text-wrapper li p {
+    padding-bottom: 7px;
 }
