@@ -18,10 +18,8 @@ body {
 }
 
 .so-many-so-bored-text-wrapper {
-  a, span, p, div,
-  h1, h2, h3, h4, h5, h6,
-  table, th, td,
-  ul, ol, li {
+  a, span, p, strong,
+  h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     color: $text-color;
@@ -29,6 +27,12 @@ body {
     font-size: $font-size;
     line-height: $line-height;
     font-weight: $font-weight;
+  }
+
+  strong {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: bold;
   }
 
   p {
@@ -41,18 +45,49 @@ body {
 
   h1 {
     font-size: 26px;
-    letter-spacing: 0;
     line-height: 34px;
     padding-bottom: 26px;
   }
 
+  h2 {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 18px;
+  }
+
+  h4 {
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 15px;
+  }
+
   a {
+    font-size: inherit;
+    line-height: inherit;
+    text-decoration: underline;
+
     &,
     &:hover,
     &:active,
     &:visited {
       color: $link-color;
     }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  table, th, td,
+  ol, ul, li {
+    margin: 0;
+    padding: 0;
   }
 
   table, th, td {
@@ -65,10 +100,12 @@ body {
     padding: 6px 10px;
   }
 
-  ul {
-    list-style-type: disc;
+  ol, ul {
     padding-left: 22px;
   }
 
+  ul {
+    list-style-type: disc;
+  }
 
 }
